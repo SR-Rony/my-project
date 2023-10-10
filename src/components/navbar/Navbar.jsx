@@ -1,0 +1,33 @@
+import React from 'react'
+import Container from '../container/Container'
+import List from '../list/List'
+import ListItem from '../list/ListItem'
+import Logo from '../../assets/sr.png'
+import Images from '../images/Images'
+
+
+const Navbar = () => {
+  return (
+    <nav className='absolute top-0 left-0 w-full bg-transparent'>
+        <Container>
+            <div className="grid grid-cols-12 items-center py-3">
+                <div className="col-span-2">
+                        <Images className='w-20 h-20 rounded-full object-cover cursor-pointer' src={Logo} alt='logo'/>
+                </div>
+                <div className="col-span-10 grid justify-end">
+                    <List className='flex gap-5 text-xl font-semibold cursor-pointer text-white'>
+                        <ListItem className='hover:text-primary delay-100' text='Home'/>
+                        <ListItem className='hover:text-primary delay-100' text='Abou Us'/>
+                        <ListItem className='hover:text-primary delay-100' text='Contact'/>
+                        <ListItem className='hover:text-primary delay-100' text='Service'/>
+                        <ListItem className='hover:text-primary delay-100' text='Blog'/>
+                    </List>
+                </div>
+                
+            </div>
+        </Container>
+    </nav>
+  )
+}
+
+export default Navbar
