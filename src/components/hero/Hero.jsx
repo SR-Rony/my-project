@@ -4,6 +4,7 @@ import Hadding from '../hadding/Hadding'
 import {FaFacebookF,FaWhatsapp,FaGithub,FaLinkedinIn} from 'react-icons/fa'
 import HeroImg from '../../assets/SR Rony.jpg'
 import Images from '../images/Images'
+import Button from '../button/Button'
 
 
 const Hero = () => {
@@ -28,6 +29,10 @@ const Hero = () => {
                       <div className='p-3 border-2 border-primary rounded-full hover:bg-primary hover:text-white'>
                         <FaLinkedinIn />
                       </div>
+                  </div>
+                  <div className="flex mt-10">
+                    <Button text='Contact Me'/>
+                    <Button className='ml-7' text='Downlod CV'/>
                   </div>
                 </div>
               </div>

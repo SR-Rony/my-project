@@ -8,7 +8,7 @@ import Images from '../images/Images'
 
 const Navbar = () => {
   return (
-    <nav className='absolute top-0 left-0 w-full bg-transparent'>
+    <nav className='fixed top-0 left-0 w-full bg-slate-900 border-b border-primary'>
         <Container>
             <div className="grid grid-cols-12 items-center py-3">
                 <div className="col-span-2">
