@@ -10,7 +10,9 @@ const Contact = () => {
   return (
     <div className=' py-20'>
         <Container>
-            <Heading className='text-center text-5xl text-white mb-16' text='Contact' span=' Me !'/>
+            <div className='text-center'>
+                <Heading className='text-5xl text-white mb-16 border-b-4 border-primary pb-4 inline-block' text='Contact' span=' Me !'/>
+            </div>
             <div className="grid grid-cols-3 gap-5">
                 <div className="col-span-1">
                     <Heading className='text-3xl text-white mb-5' text='Address'/>
