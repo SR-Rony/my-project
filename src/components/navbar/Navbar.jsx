@@ -18,9 +18,9 @@ const Navbar = () => {
                     <List className='flex gap-5 text-xl font-semibold cursor-pointer text-white'>
                         <ListItem className='hover:text-primary delay-100' text='Home'/>
                         <ListItem className='hover:text-primary delay-100' text='Abou Us'/>
-                        <ListItem className='hover:text-primary delay-100' text='Contact'/>
                         <ListItem className='hover:text-primary delay-100' text='Service'/>
-                        <ListItem className='hover:text-primary delay-100' text='Blog'/>
+                        <ListItem className='hover:text-primary delay-100' text='Portfolio'/>
+                        <ListItem className='hover:text-primary delay-100' text='Contact'/>
                     </List>
                 </div>
                 
