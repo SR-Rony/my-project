@@ -5,7 +5,7 @@ import Heading from '../heading/Heading'
 
 const About = () => {
   return (
-    <section id='about' className='py-10 text-center'>
+    <section id='about' className='pb-20 text-center'>
         <Container>
               <Heading className='text-5xl text-white border-b-4 border-primary pb-4 inline-block' text='About' span=' Me'/>
             <div className='mt-10 text-white'>
