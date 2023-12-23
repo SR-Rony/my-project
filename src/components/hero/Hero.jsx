@@ -9,7 +9,7 @@ import Heading from '../heading/Heading'
 
 const Hero = () => {
   return (
-    <section className='py-60'>
+    <section id='home' className='pt-32 pb-20 md:py-60'>
         <Container>
             <div className="grid grid-cols-2 items-center">
               <div className="col-span-2 order-2 md:order-1 md:col-span-1">
