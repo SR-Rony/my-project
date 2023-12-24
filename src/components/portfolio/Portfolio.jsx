@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <Heading className='text-3xl md:text-5xl text-white mb-16 border-b-4 border-primary pb-4 inline-block' text='My' span=' Portfolio'/>
                 <div className='grid grid-cols-3 gap-5 my-5'>
                     <div className={`col-span-3 md:col-span-1 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <Images className='h-full' src={img3}/>
+                        <Images className='h-full w-full ' src={img3}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-70 text-white z-20'>
                             <div className=''>
                                 <Paragraph text='Project title'/>
@@ -24,7 +24,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className={`col-span-3 md:col-span-1 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <Images className='h-full' src={img1}/>
+                        <Images className='h-full w-full' src={img1}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-70 text-white z-20'>
                             <div className=''>
                                 <Paragraph text='Project title'/>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className={`col-span-3 md:col-span-1 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <Images className='h-full' src={img2}/>
+                        <Images className='h-full w-full' src={img2}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-70 text-white z-20'>
                             <div className=''>
                                 <Paragraph text='Project title'/>
@@ -44,7 +44,7 @@ const Portfolio = () => {
                 </div>
                 <div className='grid grid-cols-3 gap-5 my-5'>
                     <div className={`col-span-3 md:col-span-1 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <Images className='h-full' src={img1}/>
+                        <Images className='h-full w-full' src={img1}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-70 text-white z-20'>
                             <div className=''>
                                 <Paragraph text='Project title'/>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className={`col-span-3 md:col-span-1 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <Images className='h-full' src={img2}/>
+                        <Images className='h-full w-full' src={img2}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-70 text-white z-20'>
                             <div className=''>
                                 <Paragraph text='Project title'/>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <div className={`col-span-3 md:col-span-1 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <Images className='h-full' src={img3}/>
+                        <Images className='h-full w-full' src={img3}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-70 text-white z-20'>
                             <div className=''>
                                 <Paragraph text='Project title'/>
