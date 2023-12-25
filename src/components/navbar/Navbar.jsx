@@ -35,12 +35,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-span-10 justify-center grid md:justify-end pb-4 md:pb-0">
                     {menu &&
-                    <List className='md:flex pt-3 md:pt-0 gap-5 text-xl font-semibold cursor-pointer text-white delay-500 '>
-                        <ListItem className='hover:text-primary delay-100 py-1 md:py-0' text='Home' path='#home'/>
-                        <ListItem className='hover:text-primary delay-100 py-1 md:py-0' text='Abou Us' path='#about'/>
-                        <ListItem className='hover:text-primary delay-100 py-1 md:py-0' text='Service' path='#service'/>
-                        <ListItem className='hover:text-primary delay-100 py-1 md:py-0' text='Portfolio' path='#portfolio'/>
-                        <ListItem className='hover:text-primary delay-100 py-1 md:py-0' text='Contact' path='#contact'/>
+                    <List className='md:flex pt-3 md:pt-0 gap-5 text-xl font-semibold cursor-pointer delay-500 '>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Home' path='#home'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Abou Us' path='#about'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Service' path='#service'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Portfolio' path='#portfolio'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Contact' path='#contact'/>
                     </List>
                     }
                 </div>

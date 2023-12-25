@@ -5,6 +5,7 @@ import Heading from '../heading/Heading'
 import { MdLocationPin,MdOutlineMarkEmailRead  } from "react-icons/md";
 import { FaPhoneAlt,FaFacebookF,FaWhatsapp,FaGithub,FaLinkedinIn  } from "react-icons/fa";
 import Paragraph from '../paragraph/Paragraph';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
@@ -37,16 +38,16 @@ const Contact = () => {
                     <Heading className='text-2xl text-white my-5' text='Follow me'/>
                     <div className='flex gap-3'>
                         <div className='text-primary text-2xl p-2 ring-1 ring-primary rounded-full inline-block hover:text-white hover:bg-primary cursor-pointer'>
-                            <FaFacebookF/>
+                        <Link to='https://www.facebook.com/hdrony.hdrony'><FaFacebookF /></Link>
                         </div>
                         <div className='text-primary text-2xl p-2 ring-1 ring-primary rounded-full inline-block hover:text-white hover:bg-primary cursor-pointer'>
-                            <FaWhatsapp />
+                        <Link to='https://wa.me/01743493707'><FaWhatsapp/></Link>
                         </div>
                         <div className='text-primary text-2xl p-2 ring-1 ring-primary rounded-full inline-block hover:text-white hover:bg-primary cursor-pointer'>
-                            <FaGithub />
+                            <Link to='https://github.com/SR-Rony'><FaGithub /></Link>
                         </div>
                         <div className='text-primary text-2xl p-2 ring-1 ring-primary rounded-full inline-block hover:text-white hover:bg-primary cursor-pointer'>
-                            <FaLinkedinIn />
+                        <Link to='https://www.linkedin.com/in/sr-rony'><FaLinkedinIn /></Link>
                         </div>
                     </div>
                 </div>
