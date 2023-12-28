@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({text,className}) => {
+const Button = ({text,className,onClick}) => {
   return (
-    <button className={`text-base md:text-xl  font-poppins font-semibold px-5 py-2 md:px-10 md:py-4 bg-transparent text-primary ring ring-primary hover:text-white hover:bg-primary ${className}`}>{text}</button>
+    <button onClick={onClick} className={`text-base lg:text-xl  font-poppins font-semibold px-5 py-2 lg:px-10 lg:py-4 bg-transparent text-primary ring ring-primary hover:text-white hover:bg-primary ${className}`}>{text}</button>
   )
 }
 
