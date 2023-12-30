@@ -32,7 +32,7 @@ const Services = () => {
                         <Paragraph text='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'/>
                     </div>
                 </div>
-                <div className="col-span-12 md:col-span-6 lg:col-span-4  flex gap-3 md:gap-5 p-2 md:p-5 ring ring-black box-border hover:ring-primary">
+                <div className="col-span-12 md:col-span-6 lg:col-span-4 md:mx-auto flex gap-3 md:gap-5 p-2 md:p-5 ring ring-black box-border hover:ring-primary">
                     <div className="text-5xl text-primary">
                         <TbTargetArrow/>
                     </div>
