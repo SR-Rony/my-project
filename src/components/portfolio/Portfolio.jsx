@@ -19,7 +19,7 @@ const Portfolio = () => {
             <div className='text-center'>
                 <Heading className='text-3xl md:text-5xl text-white mb-16 border-b-4 border-primary pb-4 inline-block' text='My' span=' Portfolio'/>
                 <div className='grid grid-cols-12 gap-5 my-5'>
-                    <div className={`col-span-12 md:col-span-6 lg:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
+                    <div className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <Link target="_blank" to='https://hockey-six.vercel.app/'>
                         <Images className='h-full w-full group-hover:scale-110 duration-100 ' src={hockey}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-50 text-white z-20'>
@@ -30,7 +30,7 @@ const Portfolio = () => {
                         </div>
                         </Link>
                     </div>
-                    <div className={`col-span-12 md:col-span-6 lg:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
+                    <div className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <Link target="_blank" to='https://photography-b7rb.vercel.app/'>
                         <Images className='h-full w-full group-hover:scale-110 duration-100' src={photography}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-50 text-white z-20'>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                         </div>
                         </Link>
                     </div>
-                    <div className={`col-span-12 md:col-span-6 lg:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
+                    <div className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <Link target="_blank" to='https://fast-jao.vercel.app/'>
                         <Images className='h-full w-full group-hover:scale-110 duration-100' src={fast}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-50 text-white z-20'>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className='grid grid-cols-12 gap-5 my-5'>
-                    <div className={`col-span-12 md:col-span-6 lg:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
+                    <div className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <Link target="_blank" to='https://linkedin-7nz6.vercel.app/'>
                         <Images className='h-full w-full group-hover:scale-110 duration-100' src={linkdin}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-50 text-white z-20'>
@@ -65,7 +65,7 @@ const Portfolio = () => {
                         </div>
                         </Link>
                     </div>
-                    <div className={`col-span-12 md:col-span-6 lg:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
+                    <div className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <Link target="_blank" to='https://chatting-application-six.vercel.app/'>
                         <Images className='h-full w-full group-hover:scale-110 duration-100' src={chatting}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-50 text-white z-20'>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                         </div>
                         </Link>
                     </div>
-                    <div className={`col-span-12 md:col-span-6 lg:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
+                    <div className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <Link target="_blank" to='https://orebi-ecommerce-sigma.vercel.app/?fbclid=IwAR1DPQ37UOLRGTIa1Qu1jKybV2pcBYDYH2mIZCKOXd4eX1rr3pmFtKmKV-o'>
                         <Images className='h-full w-full group-hover:scale-110 duration-100' src={Ecommerce}/>
                         <div className='hidden group-hover:flex justify-center items-center absolute top-0 left-0 w-full h-full hover:bg-black opacity-50 text-white z-20'>
