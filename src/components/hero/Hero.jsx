@@ -19,16 +19,16 @@ const Hero = () => {
                   <Heading className='text-2xl md:text-4xl my-3 md:my-7' text='I’m'span=' Web Developer'/>
                   <div className="flex gap-5 text-xl justify-center lg:justify-start items-center lg:text-3xl cursor-pointer text-primary">
                       <div className='p-3 border-2 border-primary rounded-full hover:bg-primary hover:text-white'>
-                        <Link to='https://www.facebook.com/hdrony.hdrony'><FaFacebookF /></Link>
+                        <Link target="_blank" to='https://www.facebook.com/hdrony.hdrony'><FaFacebookF /></Link>
                       </div>
                       <div className='p-3 border-2 border-primary rounded-full hover:bg-primary hover:text-white'>
-                        <Link to='https://api.whatsapp.com/message/PYILMNVFCEGLF1?autoload=1&app_absent=0'><FaWhatsapp/></Link>
+                        <Link target="_blank" to='https://api.whatsapp.com/message/PYILMNVFCEGLF1?autoload=1&app_absent=0'><FaWhatsapp/></Link>
                       </div>
                       <div className='p-3 border-2 border-primary rounded-full hover:bg-primary hover:text-white'>
-                        <Link to='https://github.com/SR-Rony'><FaGithub /></Link>
+                        <Link target="_blank" to='https://github.com/SR-Rony'><FaGithub /></Link>
                       </div>
                       <div className='p-3 border-2 border-primary rounded-full hover:bg-primary hover:text-white'>
-                        <Link to='https://www.linkedin.com/in/sr-rony'><FaLinkedinIn /></Link>
+                        <Link target="_blank" to='https://www.linkedin.com/in/sr-rony'><FaLinkedinIn /></Link>
                       </div>
                   </div>
                   <div className="flex gap-5 justify-center lg:justify-start mt-5 md:mt-10">

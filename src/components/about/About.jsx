@@ -3,6 +3,7 @@ import Container from '../container/Container'
 import Paragraph from '../paragraph/Paragraph'
 import Heading from '../heading/Heading'
 import Button from '../button/Button'
+import { FaAngleDown,FaAngleUp } from "react-icons/fa6";
 
 const About = () => {
   const [text,setText]=useState(true)
@@ -31,7 +32,11 @@ const About = () => {
 
                 I thrive on collaboration and believe in the power of teamwork to bring innovative ideas to life. I'm here to help you transform your vision into a functional, visually appealing, and secure digital reality. Let's work together to create something amazing on the web."/>
               }
-              <Button onClick={()=>setText(!text)} className='mt-3 md:hidden' text='Read more'/>
+              {text
+                ?<Button onClick={()=>setText(false)} className='mt-3 md:hidden' text={<FaAngleUp/>}/>
+                :<Button onClick={()=>setText(true)} className='mt-3 md:hidden' text={<FaAngleDown />}/>
+              }
+              {/* <FaAngleDown className='text-2xl text-primary text-center' onClick={()=>setText(!text)} /> */}
             </div>
         </Container>
     </section>
