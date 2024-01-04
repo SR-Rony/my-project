@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav className='fixed top-0 left-0 z-50 w-full bg-slate-900 border-b border-primary'>
         <Container>
-            <div className=" md:grid grid-cols-12 items-center md:py-3 relative">
+            <div className=" md:grid grid-cols-12 items-center relative">
                 {menu
                     ?<RxCross2 onClick={()=>setMenu(false)} className='absolute md:hidden top-8 right-3 cursor-pointer text-white text-xl'/>
                     :<FaBars onClick={()=>setMenu(true)} className='absolute md:hidden top-8 right-3 cursor-pointer text-white text-xl'/>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     <List className='md:flex pt-3 md:pt-0 gap-5 text-xl font-semibold cursor-pointer delay-500 '>
                         <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Home' path='#home'/>
                         <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Abou Us' path='#about'/>
-                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Service' path='#service'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Service' path='#services'/>
                         <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Portfolio' path='#portfolio'/>
                         <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Contact' path='#contact'/>
                     </List>

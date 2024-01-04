@@ -41,7 +41,7 @@ const Contact = () => {
                         <Link to='https://www.facebook.com/hdrony.hdrony'><FaFacebookF /></Link>
                         </div>
                         <div className='text-primary text-2xl p-2 ring-1 ring-primary rounded-full inline-block hover:text-white hover:bg-primary cursor-pointer'>
-                        <Link to='https://wa.me/01743493707'><FaWhatsapp/></Link>
+                        <Link to='https://api.whatsapp.com/message/PYILMNVFCEGLF1?autoload=1&app_absent=0'><FaWhatsapp/></Link>
                         </div>
                         <div className='text-primary text-2xl p-2 ring-1 ring-primary rounded-full inline-block hover:text-white hover:bg-primary cursor-pointer'>
                             <Link to='https://github.com/SR-Rony'><FaGithub /></Link>

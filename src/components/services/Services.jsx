@@ -8,7 +8,7 @@ import { TbTargetArrow } from "react-icons/tb";
 
 const Services = () => {
   return (
-   <section className='py-10 md:py-20'>
+   <section id='services' className='py-10 md:py-20'>
         <Container>
             <div className='text-center'>
                 <Heading className='text-3xl md:text-5xl text-white mb-16 border-b-4 border-primary pb-4 inline-block' text='My' span=' Services'/>

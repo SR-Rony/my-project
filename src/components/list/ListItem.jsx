@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const ListItem = ({text,className,path}) => {
   return (
-    <li className={`${className} font-poppins`}> <Link to={path}>{text}</Link></li>
+    <li className={`${className} font-poppins`}> <a href={path}>{text}</a></li>
   )
 }
 
