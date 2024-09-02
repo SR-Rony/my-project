@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='fixed top-0 left-0 z-50 w-full bg-slate-900 border-b border-primary'>
+    <nav data-aos="fade-down" className='fixed top-0 left-0 z-50 w-full bg-slate-900 border-b border-primary'>
         <Container>
             <div className=" md:grid grid-cols-12 items-center relative">
                 {menu
