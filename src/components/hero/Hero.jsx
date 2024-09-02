@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect, useRef } from 'react'
 import Container from '../container/Container'
 import {FaFacebookF,FaWhatsapp,FaGithub,FaLinkedinIn} from 'react-icons/fa'
 import HeroImg from '../../assets/SR Rony.jpg'
@@ -6,9 +6,31 @@ import Images from '../images/Images'
 import Button from '../button/Button'
 import Heading from '../heading/Heading'
 import { Link } from 'react-router-dom'
+import Typed from "typed.js";
 
 
 const Hero = () => {
+
+  const typedRef = useRef(null);
+  useEffect(() => {
+    const options = {
+      strings: [
+        "full stack developer",
+        "Androide Developer (React Native)"
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+    };
+
+    const typed = new Typed(typedRef.current, options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
+
   return (
     <section id='home' className='pt-32 pb-20 lg:py-60'>
         <Container>
@@ -16,7 +38,8 @@ const Hero = () => {
               <div className="col-span-2 order-2 lg:order-1 lg:col-span-1">
                 <div className="text-white text-center lg:text-start">
                   <Heading className='text-6xl lg:text-start lg:text-7xl' text='Hello! I’m ' span='SR Rony'/>
-                  <Heading className='text-2xl md:text-4xl my-3 md:my-7' text='I’m'span=' Web Developer'/>
+                  <h1 className='text-2xl md:text-4xl my-3 md:my-7 inline-block font-bold text-primary'><span className='mr-2 text-white'>I’m</span><span ref={typedRef} ></span></h1>
+                  {/* <span className='text-2xl md:text-4xl my-3 md:my-7 text-primary font-bold ml-2' ref={typedRef}></span> */}
                   <div className="flex gap-5 text-xl justify-center lg:justify-start items-center lg:text-3xl cursor-pointer text-primary">
                       <div className='p-3 border-2 border-primary rounded-full hover:bg-primary hover:text-white'>
                         <Link target="_blank" to='https://www.facebook.com/hdrony.hdrony'><FaFacebookF /></Link>
