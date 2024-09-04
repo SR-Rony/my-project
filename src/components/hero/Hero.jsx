@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import Container from '../container/Container'
 import {FaFacebookF,FaWhatsapp,FaGithub,FaLinkedinIn} from 'react-icons/fa'
 import HeroImg from '../../assets/SR Rony.jpg'
+import pdf from '../../assets/web developer.pdf'
 import Images from '../images/Images'
 import Button from '../button/Button'
 import Heading from '../heading/Heading'
@@ -37,7 +38,7 @@ const Hero = () => {
     <section id='home' className='pt-32 pb-20 lg:py-60'>
         <Container>
             <div className="grid grid-cols-2 items-center">
-              <div className="col-span-2 order-2 lg:order-1 lg:col-span-1">
+              <div data-aos="fade-down-right" className="col-span-2 order-2 lg:order-1 lg:col-span-1">
                 <div className="text-white text-center lg:text-start">
                   <Heading className='text-6xl lg:text-start lg:text-7xl' text='Hello! I’m ' span='SR Rony'/>
                   <h1 className='text-2xl md:text-4xl my-3 md:my-7 inline-block font-bold text-primary'><span className='mr-2 text-white'>I’m</span><span ref={typedRef} ></span></h1>
@@ -58,7 +59,13 @@ const Hero = () => {
                   </div>
                   <div className="flex gap-5 justify-center lg:justify-start mt-5 md:mt-10">
                     <Button text='Contact Me'/>
-                    <Button text='Downlod CV'/>
+                    <a
+                      href={pdf}
+                      download="Resume.pdf"
+                      className="text-base lg:text-xl  font-poppins rounded-md duration-100 font-semibold p-2 lg:px-10 lg:py-4 bg-transparent text-primary ring ring-primary hover:text-white hover:bg-primary"
+                    >
+            Download Resume
+          </a>
                   </div>
                 </div>
               </div>

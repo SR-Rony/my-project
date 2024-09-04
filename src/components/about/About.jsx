@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Container from '../container/Container'
 import Paragraph from '../paragraph/Paragraph'
 import Heading from '../heading/Heading'
-import Button from '../button/Button'
-import { FaAngleDown,FaAngleUp } from "react-icons/fa6";
 
 const About = () => {
   const [text,setText]=useState(true)
@@ -19,7 +17,7 @@ const About = () => {
         window.addEventListener("resize",scroolWidth)
     },[]);
   return (
-    <section id='about' className='pb-10 lg:pb-20 text-center'>
+    <section data-aos="zoom-in" id='about' className='pb-10 lg:pb-20 text-center'>
         <Container>
               <Heading className='text-3xl md:text-5xl text-white border-b-4 border-primary pb-4 inline-block' text='About' span=' Me'/>
             <div className='mt-5 lg:mt-10 text-white'>
@@ -33,10 +31,9 @@ const About = () => {
                 I thrive on collaboration and believe in the power of teamwork to bring innovative ideas to life. I'm here to help you transform your vision into a functional, visually appealing, and secure digital reality. Let's work together to create something amazing on the web."/>
               }
               {text
-                ?<Button onClick={()=>setText(false)} className='mt-3 md:hidden' text={<FaAngleUp/>}/>
-                :<Button onClick={()=>setText(true)} className='mt-3 md:hidden' text={<FaAngleDown />}/>
+                ?<span onClick={()=>setText(false)} className=' md:hidden'></span>
+                :<span  onClick={()=>setText(true)} className=' md:hidden text-primary cursor-pointer' >Read more...</span>
               }
-              {/* <FaAngleDown className='text-2xl text-primary text-center' onClick={()=>setText(!text)} /> */}
             </div>
         </Container>
     </section>
