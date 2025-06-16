@@ -18,7 +18,8 @@ const About = () => {
     },[]);
   return (
     <section data-aos="zoom-in" id='about' className='pb-10 lg:pb-20 text-center'>
-        <Container>
+        <Container className='relative'>
+          <div className="absolute -bottom-10 left-1/3 w-[400px] h-[400px] bg-primary top rounded-full blur-[200px] opacity-30 animate-pulse"></div>
               <Heading className='text-3xl md:text-5xl text-white border-b-4 border-primary pb-4 inline-block' text='About' span=' Me'/>
             <div className='mt-5 lg:mt-10 text-white'>
               <Heading className='text-xl md:text-3xl mb-7' text="I'm SR Rony, a" span=' Web Developer'/>

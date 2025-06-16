@@ -69,8 +69,10 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
-              <div  data-aos="zoom-in" className="col-span-2 order-1 lg:order-2 mb-5 lg:mb-0  lg:col-span-1 w-full grid justify-center">
-                <Images className='w-52 h-52 lg:h-96 lg:w-96 rounded-full ring-4  lg:ring-8 ring-primary' src={HeroImg}/>
+              <div  data-aos="zoom-in" className="col-span-2 relative order-1 lg:order-2 mb-5 lg:mb-0  lg:col-span-1 w-full grid justify-center">
+                <div className='active_div relative w-52 h-52 lg:h-96 lg:w-96 '>
+                <Images className='w-full h-full rounded-full ring-4  lg:ring-8 ring-primary' src={HeroImg}/>
+                </div>
               </div>
             </div>
         </Container>
