@@ -76,10 +76,10 @@ const Contact = () => {
             <Heading className='text-xl md:text-3xl text-white mb-5' text='Send us a note'/>
             <form ref={form} onSubmit={sendEmail} className='text-white text-base md:text-xl' action="">
                     <div className='flex mb-4 md:mb-7 gap-3 md:gap-5'>
-                        <input className='p-2 md:p-5 ring-primary ring bg-transparent  w-1/2' type="text" name="user_name" placeholder='Full Name' />
-                        <input className='p-2 md:p-5 ring-primary ring bg-transparent  w-1/2' type="text" name="user_email" placeholder='Email Address' />
+                        <input className='p-2 md:p-5 ring-primary ring bg-transparent rounded-md  w-1/2' type="text" name="user_name" placeholder='Full Name' />
+                        <input className='p-2 md:p-5 ring-primary ring bg-transparent rounded-md  w-1/2' type="text" name="user_email" placeholder='Email Address' />
                     </div>
-                    <textarea className='w-full bg-transparent p-2 md:p-5 h-32 md:h-52 ring ring-primary' name="message"  placeholder='Tell us more about your needs ...'></textarea>
+                    <textarea className='w-full bg-transparent p-2 md:p-5 h-32 md:h-52 ring rounded-md ring-primary' name="message"  placeholder='Tell us more about your needs ...'></textarea>
                     <div className='text-center mt-5'>
                         <Button text='Send Message'/>
                     </div>

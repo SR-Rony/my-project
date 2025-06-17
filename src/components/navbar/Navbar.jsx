@@ -39,12 +39,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-span-10 justify-center grid md:justify-end">
                     {menu &&
-                    <List className='md:flex pt-3 md:pt-0 gap-5 text-xl font-semibold cursor-pointer delay-500 '>
-                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Home' path='#home'/>
-                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Abou Us' path='#about'/>
-                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Service' path='#services'/>
-                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Portfolio' path='#portfolio'/>
-                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0' text='Contact' path='#contact'/>
+                    <List className='md:flex pt-3 md:pt-0 gap-5 text-xl font-semibold cursor-pointer delay-500 text-center '>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0 relative after:absolute after:-bottom-3 after:left-0 after:w-0 lg:hover:after:w-full after:h-1 duration-100 after:bg-primary' text='Home' path='#home'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0 relative after:absolute after:-bottom-3 after:left-0 after:w-0 lg:hover:after:w-full after:h-1 duration-100 after:bg-primary' text='Abou Us' path='#about'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0 relative after:absolute after:-bottom-3 after:left-0 after:w-0 lg:hover:after:w-full after:h-1 duration-100 after:bg-primary' text='Service' path='#services'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0 relative after:absolute after:-bottom-3 after:left-0 after:w-0 lg:hover:after:w-full after:h-1 duration-100 after:bg-primary' text='Portfolio' path='#portfolio'/>
+                        <ListItem className='hover:text-primary text-white delay-100 py-1 md:py-0 relative after:absolute after:-bottom-3 after:left-0 after:w-0 lg:hover:after:w-full after:h-1 duration-100 after:bg-primary' text='Contact' path='#contact'/>
                     </List>
                     }
                 </div>
