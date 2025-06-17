@@ -1,10 +1,10 @@
-import React from 'react'
+
 import Container from '../container/Container'
 import Heading from '../heading/Heading'
 import hockey from '../../assets/hockey.png'
 import photography from '../../assets/slider.jpg'
 import fast from '../../assets/fast-jaw.png'
-import linkdin from '../../assets/linkdin.jpg'
+import linkdin from '../../assets/linkding.jpg'
 import chatting from '../../assets/chatting.jpg'
 import Ecommerce from '../../assets/Ecommerce.png'
 import PortfolioItem from './PortfolioItem'
@@ -28,7 +28,7 @@ const Portfolio = () => {
                 </div>
                 <div className='grid grid-cols-12 gap-5 my-5'>
                     <div data-aos="zoom-in" className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
-                        <PortfolioItem to='https://linkedin-7nz6.vercel.app/' image={linkdin}/>
+                        <PortfolioItem to='https://shops-ecommerce-bice.vercel.app/' image={linkdin}/>
                     </div>
                     <div data-aos="zoom-in" className={`col-span-12 md:col-span-4 h-80 cursor-pointer relative group rounded-md overflow-hidden`}>
                         <PortfolioItem to='https://chatting-application-six.vercel.app/' image={chatting}/>
